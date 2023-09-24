@@ -42,6 +42,7 @@ void program(int base, int number_of_digits,string limit)
 
 
     }
+    
 
     for(int i = 0; i < row; i++) 
     {
