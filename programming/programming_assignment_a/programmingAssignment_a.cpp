@@ -28,35 +28,12 @@ void program(int base, int number_of_digits,string limit)
     cout <<"'}"<< endl<<endl ;
     cout <<" In "<< lookup_base[base] <<" base, the first digit goes up to " << MaxValid << " then the digit is reset to 0 and 1 is carried to the next digit."<<endl;
     cout << "    If the carry is to a digit that is already " << MaxValid << " then the digit is also reset to 0 and 1 is carried to the next digit. "<< endl<< endl;
-    int row = number_of_digits;
-    int col = number_of_digits;
-    string arr[row][col];
-    
-    for (int i = 0; i < number_of_digits; i++)
-    {
-        for (int j = 0;j < number_of_digits;  j++)
-        {
-            arr[i][j] = "0";
-            
-        }
-
-
-    }
-    
-
-    for(int i = 0; i < row; i++) 
-    {
-        for(int j = 0; j < col; j++) 
-        {
-            cout << arr[i][j] << " ";
-        }
-        cout << endl;
-    }
+   
 
 }
 
 int main()
 {
-    program(2,5,"101");
+    program(2,6,"101");
     return 0;
 }
