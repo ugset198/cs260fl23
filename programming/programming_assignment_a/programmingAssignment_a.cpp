@@ -46,10 +46,10 @@ void program(int base, int number_of_digits, string limit) {
     cout << setw(number_of_digits) << "Number" << " | Count (reset:carry)" << endl;
 
     // Modify the initial value of current
-    string current = alpha1[0] + string(number_of_digits - 1, alpha1[0]);
-    
+    string current = alpha1[0] + string(number_of_digits-1 , alpha1[0]);
+
     while (current != limit) {
-        cout << setw(number_of_digits) << current << " | "   ;
+        cout << setw(number_of_digits+2) << current << " | "   ;
 
         // Increment the number
         int carry = 1;
