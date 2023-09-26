@@ -47,9 +47,7 @@ void program(int base, int number_of_digits, string limit) {
 
     // Modify the initial value of current
     string current = alpha1[0] + string(number_of_digits - 1, alpha1[0]);
-    int resetCount = 0;
-    int carryCount = 0;
-
+    
     while (current != limit) {
         cout << setw(number_of_digits) << current << " | "   ;
 
@@ -76,8 +74,7 @@ void program(int base, int number_of_digits, string limit) {
         }
 
         if (carry) {
-            carryCount++;
-            resetCount++;
+
             current = alpha1[0] + current;
         }
         cout << endl;
@@ -85,6 +82,6 @@ void program(int base, int number_of_digits, string limit) {
 }
 
 int main() {
-    program(2, 3, "100");
+    program(2, 3, "1000");
     return 0;
 }
