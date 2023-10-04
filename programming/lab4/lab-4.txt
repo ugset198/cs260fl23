@@ -1,0 +1,37 @@
+course: cs260
+name: lab-3
+date: 2023-10-04
+
+Note that for the duration of this course all numbers are given as strings.
+Unless otherwise stated, use of special libraries is not allowed.
+        
+##########################################################################################            
+# lab-4 2023-10-04
+
+    Task-1:
+    Modify your implementation of the the weighted_sum algorithm so it would work with 
+        floating point numbers.
+
+    To convert to decimal for all of our cases:
+     binary --> decimal
+     octal --> decmial
+     hexadecimal --> decmimal
+
+
+   The weights left of decimal point are calculated as before:
+        exponent starts from zero and increases right-to-left.
+
+   The weigts right of decimal point are calculated as follows:
+        exponents start at -1 and increases left-to-right
+
+    For example:
+        given (1010.001) in base 2, we can obtain decimal value by multiplying each digit by the weight:
+
+         1*2**3 + 0*2**2 + 1*2**1 + 0*2**0 + 0*2**(-1) + 0*2**(-2) + 1*2**(-3)
+         
+
+
+
+    
+
+##########################################################################################

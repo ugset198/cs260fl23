@@ -1,0 +1,37 @@
+course: cs260
+name: lab-5
+date: 2023-09-20
+
+Note that for the duration of this course all numbers are given as strings.
+Unless otherwise stated, use of special libraries is not allowed.
+
+
+##########################################################################################            
+# lab-5 2023-10-04
+
+    Task-1:
+	write a function definition that implements two’s complement algorithm discussed in class. 
+    Header of the funtion is provided here:
+
+    def twos_complement(num: str, base = 2) -> str:
+        pass
+
+	You will need to:
+		1) invert the individual digits
+		2) add 1 to the inverted value
+
+		Note: also make sure to test for special case such as 1000
+
+	As a bonus, test your two’s complement implementation to see if it works
+		for hexadecimal values.
+
+
+	
+##########################################################################################
+
+ On your own: alternative approach.
+   https://en.wikipedia.org/wiki/Two%27s_complement#Working_from_LSB_towards_MSB
+  Working from LSB -> MSB until the first 1 is reached:
+     coppy all zeros
+     then copy first 1 
+     flip the rest on the way to MSB

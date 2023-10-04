@@ -9,7 +9,7 @@ Unless otherwise stated, use of special libraries is not allowed.
 # lab-3 2023-09-20
 
     Task-0:
-    Convert code from lab-1.py into a function definition, see lab-1.py
+    Use the code from lab-1 to create a function definition, see lab-1.py in current dir.
 
     Task-1:
     Implement Repeated Division algorithm to be able to convert 
@@ -34,7 +34,7 @@ Unless otherwise stated, use of special libraries is not allowed.
 ##########################################################################################
 
 Notes:
-* do not use casting, use your get_int() function from lab1.py
+* do not use casting, use your get_int() function from lab-1.py
 
 * python syntax reminder:
    % remainder operator

@@ -18,7 +18,7 @@ Unless otherwise stated, use of special libraries is not allowed.
 
     "1010" + "0010" in base 2 --> "1100"
     
-    "9" + '1' in base 16 --> "a"
+    "9" + "1" in base 16 --> "a"
     
     Task-2:
     Finally, print the message to the screen with the following:
