@@ -68,5 +68,6 @@ if __name__ == "__main__":
     implicant1 = Implicant("a'bc")
     implicant2 = Implicant("abc")
     print(implicant1)
+    print(implicant1[0]) 
     result = implicant1.simplify(implicant2)
     print(result)
