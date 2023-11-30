@@ -65,10 +65,8 @@ class Implicant:
 
 
 if __name__ == "__main__":
-    # Test cases
     implicant1 = Implicant("a'bc")
     implicant2 = Implicant("abc")
     print(implicant1)
-    print(implicant1[0])  # Accessing elements using subscript operator
     result = implicant1.simplify(implicant2)
     print(result)
